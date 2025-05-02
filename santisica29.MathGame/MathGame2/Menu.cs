@@ -39,7 +39,6 @@ namespace MathGame2
                     case "a":
                         difficulty = Helpers.GetDifficulty();
                         gameEngine.PlayGame(GameType.Addition, difficulty);
-                        // gameEngine.AdditionGame("Addition selected");
                         break;
                     case "s":
                         difficulty = Helpers.GetDifficulty();
